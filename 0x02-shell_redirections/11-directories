@@ -1,2 +1,2 @@
 #1/bin/bash
-ls -n | head
+find . -type d -not -name '.' | wc -l
